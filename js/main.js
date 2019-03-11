@@ -34,9 +34,9 @@ function buildList(data){
 			dataLink = '#link'+i
 		}
 
-		// remove #bookmark text
+		// remove #dataviz text
 		var dataText = data[i].Text
-		dataText = dataText.replace('#bookmark', '')
+		dataText = dataText.replace('#dataviz', '')
 
 		var dataTwitter = data[i].Twitter
 		var dataDate = data[i].Date
