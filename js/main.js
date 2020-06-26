@@ -1,7 +1,7 @@
 /* main.js */
 
 // Load CSV from published google drive sheet created by IFTTT from my twitter feed with #dataviz tag
-Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vTtoCIkMuFMoTL_3ApZoYRTxUWNrHmrguNnAt0AjmJHIjHp55rm7sylJQvXGvsE898QPSSxdnxXDH8I/pub?output=csv", {
+Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vTtoCIkMuFMoTL_3ApZoYRTxUWNrHmrguNnAt0AjmJHIjHp55rm7sylJQvXGvsE898QPSSxdnxXDH8I/pub?gid=0&single=true&output=csv", {
 	download: true,
 	header: true,
 	complete: function(results) {
